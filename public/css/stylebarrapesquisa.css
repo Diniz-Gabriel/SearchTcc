@@ -1,0 +1,71 @@
+@import url('https://fonts.googleous.com/css2?family-Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.searchBox{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+    overflow: hidden;
+    box-shadow: 0 25px 35px rgba(0,0,0,1);
+    border-radius: 20px;
+}
+
+.searchBox.active{
+    width: 500px;
+}
+    
+.searchBox .search{
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.searchBox .close{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.25em;
+    scale: 0;
+    transition: 0.5s;
+}
+
+.searchBox.active .close{
+    scale: 1;
+    transition-delay: 0.5s;
+}
+
+.searchBox .searchInput{
+    position: absolute;
+    left: 60px;
+    width: calc(100% - 120px);
+    height: 100%;
+    line-height: 60px;
+}
+
+.searchBox .searchInput input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.25em;
+}
