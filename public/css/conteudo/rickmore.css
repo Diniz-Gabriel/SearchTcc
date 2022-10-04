@@ -28,20 +28,33 @@ body {
     width:1000px;
     height:400px;
     background: #333333; 
+    border-radius: 5px;
     }
+
+.tituloSinopse{
+
+    margin-left: 425px;
+
+}
 
 .textoSinopse{
     
+    padding: 300px;
+    margin-left: -200px;
+    margin-right: -180px;
+    text-align: center;
+    margin-top: -300px;
+    text-overflow: auto;
 }
 
 /* Comeco do CSS dos slides*/
 .content {
     height: 520px;
-    width: 935;
+    width: 1000px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    top: 50%;
+    top: 210%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

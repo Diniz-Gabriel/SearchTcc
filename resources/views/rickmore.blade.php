@@ -7,7 +7,7 @@
     <link href="{{ asset('css\conteudo\rickmore.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/stylemenu.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/stylehome.css') }}" rel="stylesheet" >
-    <title>Rick and More</title>
+    <title>Rick and Morty</title>
 </head>
 <body>
     <!-- Comeco da menu -->
@@ -45,12 +45,16 @@
     <!-- Final da introducao do site -->
     <!-- Comeco da sinopse -->
     <div class="sinopse">
-        <div class="textoSinopse">
+        <div class="tituloSinopse">
+            <br><br><br>
             <h1>Sinopse</h1>
-        </div>
+            <br><br><br>
     </div>
+    <div class="textoSinopse"><h2>Acompanhe malucas viagens no tempo-espaço e por universos paralelos com Rick, um cientista com problemas com a bebida, e seu neto Morty, um adolescente não tão brilhante quanto o avô.</h2></div>
+        </div>
+    <div>
     <!-- Comeco dos slides -->
-    <!--<div class="content">
+    <div class="content">
         <div class="slides">
             <input type="radio" name="slide" id="slide1" checked>
             <input type="radio" name="slide" id="slide2">
@@ -59,7 +63,7 @@
             <input type="radio" name="slide" id="slide5">
 
             <div class="slide s1">
-                <img src="imagens\rickmore\rick.webp" alt="foto do personagem Rick">
+                <img src="imagens\rickmore\curiosidade1.png" alt="foto do personagem Rick">
             </div>
             <div class="slide">
                 <img src="imagens\rickmore\more.webp" alt="foto do personagem More">
@@ -83,6 +87,7 @@
 
         </div>
     </div>
-     Final dos slides -->
+     <!--Final dos slides -->
+     </div>
 </body>
 </html>
