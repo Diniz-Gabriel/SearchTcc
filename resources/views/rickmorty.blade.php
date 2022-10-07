@@ -7,7 +7,7 @@
     <link href="{{ asset('css/conteudo/rickmorty.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/stylemenu.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/stylehome.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylrodape.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/stylefooter.css') }}" rel="stylesheet" type="text/css">
     <title>Rick and Morty</title>
 </head>
 <body>
@@ -102,7 +102,7 @@
                 <img src="imagens\rickmorty\rick.webp" alt="foto do personagem Rick">
                 <h1 class="elenco">Rick Sanchez</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt">Traduzido do inglês-<br>Richard D. "Rick" Sanchez é um dos dois personagens homônimos da série de televisão animada Rick and Morty do Adult Swim e da franquia resultante. Criado por Justin Roiland e Dan Harmon e dublado pelo primeiro, Sanchez é um cientista alcoólatra misantropo inspirado pelo Dr.<a class="link" href="https://en.wikipedia.org/wiki/Rick_Sanchez" target="_blank">Wikipedia (inglês)</a></h3>
+                <h3 class="elencotxt">Traduzido do inglês-<br>Richard D. "Rick" Sanchez é um dos dois personagens homônimos da série de televisão animada Rick and Morty do Adult Swim e da franquia resultante. Criado por Justin Roiland e Dan Harmon e dublado pelo primeiro, Sanchez é um cientista alcoólatra misantropo inspirado pelo Dr...<a class="link" href="https://en.wikipedia.org/wiki/Rick_Sanchez" target="_blank">Wikipedia (inglês)</a></h3>
             </div>
             <div class="slideelenco">
             <img src="imagens\rickmorty\morty.webp" alt="foto do personagem Morty">
@@ -140,7 +140,30 @@
     </div>
      <!--Final dos slides do elenco -->
      <!--Comeco do rodape -->
-   
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+        <ul class="redessociais">
+                <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Search</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>  
      <!--Final do rodape -->
 </body>
 </html>
