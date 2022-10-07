@@ -54,18 +54,20 @@
 }
 
 .searchBox .searchInput{
-    position: absolute;
+    position: flex;
     left: 60px;
     width: calc(100% - 120px);
     height: 100%;
     line-height: 60px;
+    align-self: center;
 }
 
 .searchBox .searchInput input {
-    position: absolute;
+    position: center;
     width: 100%;
     height: 100%;
     border: none;
     outline: none;
     font-size: 1.25em;
+    text-align: center; 
 }
