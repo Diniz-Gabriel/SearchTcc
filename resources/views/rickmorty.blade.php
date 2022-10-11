@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ asset('css/conteudo/rickmorty.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylemenu.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylehome.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylefooter.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\conteudo\rickmorty.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\home\stylemenu.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\home\stylehome.css') }}" rel="stylesheet" >
+    <link href="{{ asset('css\stylefooter.css') }}" rel="stylesheet" type="text/css">
     <title>Rick and Morty</title>
 </head>
 <body>

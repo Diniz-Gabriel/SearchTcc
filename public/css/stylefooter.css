@@ -40,7 +40,7 @@ footer .redessociais li a{
 
 footer .redessociais li a:hover{
 
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 
 }
 
@@ -78,12 +78,6 @@ footer .wave{
     background: url('../imagens/wave.svg');
     background-size: 1000px 100px;
 }
-
-svg{
-    width: 3000px;
-    height: 129px;
- }
-
 
 footer .wave#wave1{
     z-index: 1000;

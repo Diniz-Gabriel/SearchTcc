@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="{{ asset('css/conteudo/rickmorty.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylemenu.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylehome.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylefooter.css') }}" rel="stylesheet" type="text/css">
-    <title>Rick and Morty</title>
+    <link href="{{ asset('css\conteudo\st.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\home\stylemenu.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\home\stylehome.css') }}" rel="stylesheet" >
+    <link href="{{ asset('css\stylefooter.css') }}" rel="stylesheet" type="text/css">
+    <title>Stranger Things</title>
 </head>
 <body>
     <!-- Comeco da menu -->
@@ -32,16 +32,16 @@
     <header class="header">
     <img src="{{ asset('imagens\logo_search.png') }}" alt="Logo" height="300" width="300" draggable="false">
     </header>
-    <script src="{{ asset('js/mobile_navbar.js') }}"></script>
+    <script src="{{ asset('js\mobile_navbar.js') }}"></script>
     <!-- Final do menu -->
     <!-- Comeco da introducao do site -->
     <header class="onde">
-    <img src="imagens\st\st_tumble.jpg" alt="Logo" draggable="false">
+    <img src="{{ asset('https://occ-0-1307-185.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABer7SeWc6FvkBqWtk61GwL7rshAEVCOARQZVTEJGnLXykYBlO4nbbr6gs7M650BjULuaN6hucXKr5xY2iqPAajrxXd70HawdJeuD.jpg?r=608') }}" alt="Logo" height="400" width="8000" draggable="false">
     </header>
     <div class="info">
-        <h1>Rick e Morty</h1>
+        <h1>Stranger Things</h1>
         <br><br><br><br>
-        <h1>A série Rick e Morty está <br> disponível no <a class="link" href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GXkRjxwjR68PDwwEAABKJ?utm_id=sa%7c71700000085056459%7c58700007207970782%7cp66001139219&gclid=CjwKCAjwg5uZBhATEiwAhhRLHsF4ARP_Nj_XPizd36NDdNqK3FlZbusxGt2JAVE_qic2Lukt5Sb1thoCZr0QAvD_BwE&gclsrc=aw.ds&countryRedirect=1" target="_blank">HBO Max</a></h1>
+        <h1>A série Stranger Things está <br> disponível na <a class="link" href="https://www.netflix.com/br/title/80057281" target="_blank">Netflix</a></h1>
     </div>
     <!-- Final da introducao do site -->
     <!-- Comeco da sinopse -->
@@ -51,7 +51,7 @@
             <h1>Sinopse</h1>
             <br><br><br>
     </div>
-    <div class="textoSinopse"><h2>Acompanhe malucas viagens no tempo-espaço e por universos paralelos com Rick, um cientista com problemas com a bebida, e seu neto Morty, um adolescente não tão brilhante quanto o avô.</h2></div>
+    <div class="textoSinopse"><h2>Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.</h2></div>
         </div>
     <div>
     <!-- Comeco dos slides das curiosidades-->
@@ -65,19 +65,19 @@
                     <br><br><br><br>
                     <h1 class="curiosidade">Curiosidade</h1>
                     <br><br><br><br><br><br><br>
-                    <h2 class="curiosidadetxt"><a href="https://www.stoned.com.br/pagina/7-curiosidades-sobre-rick-and-morty-que-voce-ainda-nao-sabia.html" target="_blank">Os criadores tinham uma ideia de inserir um segredo que só seria revelado no final, mas foi abandonada porque um fã o descobriu</a></h2>
+                    <h2 class="curiosidadetxt"><a href="https://br.ign.com/stranger-things/99533/feature/stranger-things-curiosidades-serie-netflix-vecna-hopper-eleven-stephen-king" target="_blank">O ator David Harbour emagreceu entre as temporadas 3 e 4 de Stranger Things. Portanto, para as cenas de Flashback, que exigiam o físico anterior do personagem Hopper, a equipe da série usou próteses e maquiagem.</a></h2>
             </div>
             <div class="slide">
                     <br><br><br><br>
             <h1 class="curiosidade">Curiosidade</h1>
                     <br><br><br><br><br><br><br>
-                    <h2 class="curiosidadetxt"><a href="https://www.stoned.com.br/pagina/7-curiosidades-sobre-rick-and-morty-que-voce-ainda-nao-sabia.html" target="_blank">Pickle Rick é uma homenagem a um episódio de Breaking Bad</a></h2>
+                    <h2 class="curiosidadetxt"><a href="https://br.ign.com/stranger-things/99533/feature/stranger-things-curiosidades-serie-netflix-vecna-hopper-eleven-stephen-king" target="_blank">Em Stranger Things 4, Lucas (Caleb McLaughlin) quer deixar de ser tão nerd e entrar para o grupo dos descolados. Para isso, ele usa o time de basquete do colégio de Hawkins como trampolim. E quem reparou no número da jersey (camisa) que ele usa? 8! Tal qual Kobe Bryant, lenda da NBA. Obviamente, a escolha do número 8 não foi por acaso, e sim uma ideia do próprio Caleb, grande fã de Kobe que queria homenagear o ídolo.</a></h2>
             </div>
             <div class="slide">
                     <br><br><br><br>
             <h1 class="curiosidade">Curiosidade</h1>
                     <br><br><br><br><br><br><br>
-                    <h2 class="curiosidadetxt"><a href="https://www.stoned.com.br/pagina/7-curiosidades-sobre-rick-and-morty-que-voce-ainda-nao-sabia.html" target="_blank">O seriado foi criado, vendido e rotulado em apenas um dia</a></h2>
+                    <h2 class="curiosidadetxt"><a href="https://br.ign.com/stranger-things/99533/feature/stranger-things-curiosidades-serie-netflix-vecna-hopper-eleven-stephen-king" target="_blank">Hoje, todo mundo conhece Stranger Things apenas com o nome da série mencionado. Mas o título quase foi outro: Montauk. E o que é o Projeto Montauk? Foram supostos projetos secretos do governo americano para desenvolver técnicas de guerra psicológica e investigações exóticas, como viagem no tempo. Fazia sentido segundo o conceito, mas vamos combinar que Stranger Things vingou muito mais, né?</a></h2>
             </div>
             <div class="navigation">
                 <label class="bar" for="slide1"></label>
@@ -97,36 +97,79 @@
             <input type="radio" name="slideelenco" id="slide3elenco">
             <input type="radio" name="slideelenco" id="slide4elenco">
             <input type="radio" name="slideelenco" id="slide5elenco">
+            <input type="radio" name="slideelenco" id="slide6elenco">
+            <input type="radio" name="slideelenco" id="slide7elenco">
+            <input type="radio" name="slideelenco" id="slide8elenco">
+            <input type="radio" name="slideelenco" id="slide9elenco">
+            <input type="radio" name="slideelenco" id="slide10elenco">
+            <input type="radio" name="slideelenco" id="slide11elenco">
+            
 
             <div class="slideelenco s1">
-                <img src="imagens\rickmorty\rick.webp" alt="foto do personagem Rick">
-                <h1 class="elenco">Rick Sanchez</h1>
+                <img src="imagens\st\MillieB.webp" alt="foto da personagem Millie Bobby Brown">
+                <h1 class="elenco">Millie Bobby Brown</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt">Traduzido do inglês-<br>Richard D. "Rick" Sanchez é um dos dois personagens homônimos da série de televisão animada Rick and Morty do Adult Swim e da franquia resultante. Criado por Justin Roiland e Dan Harmon e dublado pelo primeiro, Sanchez é um cientista alcoólatra misantropo inspirado pelo Dr...<a class="link" href="https://en.wikipedia.org/wiki/Rick_Sanchez" target="_blank">Wikipedia (inglês)</a></h3>
+                <h3 class="elencotxt">Millie Bobby Brown é uma atriz e cantora britânica nascida na Espanha. A atriz ganhou reconhecimento mundial e aclamação da crítica por seu papel como Onze na série de televisão Stranger Things da Netflix.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Millie_Bobby_Brown" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\rickmorty\morty.webp" alt="foto do personagem Morty">
-                <h1 class="elenco">Morty Smith</h1>
+            <img src="imagens\st\FinnW.webp" alt="foto do personagem Finn Wolfhard">
+                <h1 class="elenco">Finn Wolfhard</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt">Traduzido do inglês-<br>Mortimer Chauncey "Morty" Smith, Sr. é um dos personagens homônimos da série de televisão animada americana Rick and Morty. Criado por Justin Roiland e Dan Harmon, Morty é um menino ansioso de 14 anos baseado em Marty McFly de Michael J. Fox de Back to the Future.<a class="link" href="https://en.wikipedia.org/wiki/Morty_Smith" target="_blank">Wikipedia (inglês)</a></h3>
+                <h3 class="elencotxt">Finn Wolfhard é um ator, músico, roteirista e diretor canadense. Entre seus papéis incluí-se Mike Wheeler na série Stranger Things, da Netflix, pelo qual recebeu três indicações ao Prêmio Screen Actors Guild para melhor elenco em série de drama, ganhando uma.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Finn_Wolfhard" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\rickmorty\summer.webp" alt="foto da personagem Summer">
-                <h1 class="elenco">Summer Smith</h1>
+            <img src="imagens\st\NoahSchnapp.jpg" alt="foto da personagem Noah Schnapp">
+                <h1 class="elenco">Noah Schnapp</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt"></h3>   
+                <h3 class="elencotxt">Noah Cameron Schnapp é um ator norte-americano, mais conhecido por interpretar Will Byers na série de televisão Stranger Things da Netflix e dar voz a Charlie Brown no filme The Peanuts Movie. Também atuou no filme Bridge of Spies de Steven Spielberg.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Noah_Schnapp" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\rickmorty\jerry.webp" alt="foto do personagem Jerry">
-                <h1 class="elenco">Jerry Smith</h1>
+                <img src="imagens\st\CalebMcLaughlin.webp" alt="foto do personagem Caleb McLaughlin">
+                <h1 class="elenco">Caleb McLaughlin</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt">Traduzido do inglês-<br>Jerry Smith é um dos personagens principais da série animada de televisão americana Rick and Morty. Criado por Justin Roiland e Dan Harmon, Jerry é retratado como um perdedor medíocre e desempregado que encontra conteúdo em sua vida simples.<a class="link" href="https://en.wikipedia.org/wiki/Jerry_Smith_(Rick_and_Morty)" target="_blank">Wikipedia (inglês)</a></h3>  
+                <h3 class="elencotxt">Caleb McLaughlin é um ator norte-americano, mais conhecido por interpretar Lucas Sinclair na série de televisão Stranger Things da Netflix. McLaughlin começou sua carreira no palco da Broadway como o jovem Simba no musical The Lion King.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Caleb_McLaughlin" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\rickmorty\beth.webp" alt="foto da personagem Beth">
-                <h1 class="elenco">Beth Smith</h1>
+                <img src="imagens\st\SadieSink.jpg" alt="foto da personagem Sadie Sink">
+                <h1 class="elenco">Sadie Sink</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt"></h3>
+                <h3 class="elencotxt">Sadie Elizabeth Sink é uma atriz norte-americana. É mais conhecida por interpretar Maxine "Max" Mayfield na série televisiva Stranger Things da Netflix. Ela também apareceu em episódios de Blue Bloods, The Americans e interpretou Ziggy Berman em Fear Street Part Two: 1978.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Sadie_Sink" target="_blank">Wikipedia</a></center></h3>
+            </div>
+            <div class="slideelenco">
+                <img src="imagens\st\GatenMatarazzo.jpg" alt="foto da personagem Gaten Matarazzo">
+                <h1 class="elenco">Gaten Matarazzo</h1>
+                <br><br><br><br>
+                <h3 class="elencotxt">Gaten John Matarazzo III é um ator norte-americano, mais conhecido por interpretar Dustin Henderson na série de televisão Stranger Things da Netflix.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Gaten_Matarazzo" target="_blank">Wikipedia</a></center></h3>
+            </div>
+            <div class="slideelenco">
+                <img src="imagens\st\JoeKeery.webp" alt="foto da personagem Joe Keery">
+                <h1 class="elenco">Joe Keery</h1>
+                <br><br><br><br>
+                <h3 class="elencotxt">Joseph David Keery, mais conhecido como Joe Keery, é um ator norte-americano. É mais conhecido por interpretar Steve Harrington na série Stranger Things da Netflix.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Joe_Keery" target="_blank">Wikipedia</a></center></h3>
+            </div>
+            <div class="slideelenco">
+                <img src="imagens\st\DavidHarbour.jpg" alt="foto da personagem David Harbour">
+                <h1 class="elenco">David Harbour</h1>
+                <br><br><br><br>
+                <h3 class="elencotxt">David Kenneth Harbour é um ator norte-americano. Ganhou reconhecimento por seu papel como Jim Hopper na série de drama e ficção científica Stranger Things, pelo qual ele recebeu um Prêmio Critics' Choice em 2018. Por este papel ele também recebeu indicações ao Emmy do Primetime e Globo de Ouro.<br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/David_Harbour" target="_blank">Wikipedia</a></center></h3>
+            </div>
+            <div class="slideelenco">
+                <img src="imagens\st\NataliaDyer.jpg" alt="foto da personagem Natalia Dyer">
+                <h1 class="elenco">Natalia Dyer</h1>
+                <br><br><br><br>
+                <h3 class="elencotxt">Natalia Danielle Dyer é uma atriz norte-americana, mais conhecida por interpretar Nancy Wheeler na série de televisão Stranger Things da Netflix.<br><br><br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Natalia_Dyer" target="_blank">Wikipedia</a></center></h3>
+            </div>
+            <div class="slideelenco">
+                <img src="imagens\st\WinonaRyder.webp" alt="foto da personagem Winona Ryder">
+                <h1 class="elenco">Winona Ryder</h1>
+                <br><br><br><br>
+                <h3 class="elencotxt">Winona Laura Horowitz, mais conhecida como Winona Ryder, é uma atriz norte-americana, nascida no estado de Minnesota, próximo à localidade de Winona, inspiração para seu prenome<br><br><br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Winona_Ryder" target="_blank">Wikipedia</a></center></h3>
+            </div>
+            <div class="slideelenco">
+                <img src="imagens\st\MayaHawke.webp" alt="foto da personagem Maya Hawke">
+                <h1 class="elenco">Maya Hawke</h1>
+                <br><br><br><br>
+                <h3 class="elencotxt">Maya Ray Thurman Hawke é uma atriz, modelo, cantora e compositora norte-americana, filha de Uma Thurman e Ethan Hawke. Ela é mais conhecida por interpretar Robin Buckley na série Stranger Things.<br><br><br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Maya_Hawke" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="navigationelenco">
                 <label class="barelenco" for="slide1elenco"></label>
@@ -134,12 +177,20 @@
                 <label class="barelenco" for="slide3elenco"></label>
                 <label class="barelenco" for="slide4elenco"></label>
                 <label class="barelenco" for="slide5elenco"></label>
+                <label class="barelenco" for="slide6elenco"></label>
+                <label class="barelenco" for="slide7elenco"></label>
+                <label class="barelenco" for="slide8elenco"></label>
+                <label class="barelenco" for="slide9elenco"></label>
+                <label class="barelenco" for="slide10elenco"></label>
+                <label class="barelenco" for="slide11elenco"></label>
+                
             </div>
 
         </div>
     </div>
      <!--Final dos slides do elenco -->
      <!--Comeco do rodape -->
+     <br><br><br><br>
         <footer>
             <div class="waves">
                 <div class="wave" id="wave1"></div>

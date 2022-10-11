@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Search</title>
-    <link href="{{ asset('css/stylemenu.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css/stylehome.css') }}" rel="stylesheet" >
-    <link href="{{ asset('css\stylebarrapesquisa.css') }}" rel="stylesheet" >
+    <link href="{{ asset('css\home\stylemenu.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\home\stylehome.css') }}" rel="stylesheet" >
+    <link href="{{ asset('css\home\stylebarrapesquisa.css') }}" rel="stylesheet" >
 </head>
 <body>
     <!-- Comeco da menu -->
