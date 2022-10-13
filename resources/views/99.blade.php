@@ -101,43 +101,43 @@
             <input type="radio" name="slideelenco" id="slide7elenco">
 
             <div class="slideelenco s1">
-                <img src="imagens\99\AndySamberg.webp" alt="foto do personagem Andy Samberg">
+                <img src="imagens\99\AndySamberg.webp" alt="foto do Andy Samberg">
                 <h1 class="elenco">Andy Samberg</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Andrew David Samberg ou Andy Samberg é um ator, comediante, produtor e músico norte-americano. Tornou-se conhecido pelo seu trabalho como escritor e ator do humorístico no Saturday Night Live ...<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Andy_Samberg" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\99\MelissaFumero.webp" alt="foto da personagem Melissa Fumero">
+            <img src="imagens\99\MelissaFumero.webp" alt="foto da Melissa Fumero">
                 <h1 class="elenco">Melissa Fumero</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Melissa Fumero é uma atriz americana, que ficou conhecida por interpretar Adriana Cramer em One Life to Live, Zoe em Gossip Girl, e Amy Santiago em Brooklyn Nine-Nine.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Melissa_Fumero" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\99\StephanieBeatriz.webp" alt="foto da personagem Stephanie Beatriz">
+            <img src="imagens\99\StephanieBeatriz.webp" alt="foto da Stephanie Beatriz">
                 <h1 class="elenco">Stephanie Beatriz</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Stephanie Beatriz é uma atriz argentina-americana. Ela é mais conhecida por interpretar Detetive Rosa Diaz na série de televisão Brooklyn Nine-Nine, da NBC. Além de estrelar como Bonnie no filme independente "A Luz da Lua" e como Mirabel Madrigal em "Encanto"<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Noah_Schnapp" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\99\ChelseaPeretti.webp" alt="foto da personagem Chelsea Peretti">
+                <img src="imagens\99\ChelseaPeretti.webp" alt="foto da Chelsea Peretti">
                 <h1 class="elenco">Chelsea Peretti</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Chelsea Vanessa Peretti é uma comediante, atriz e escritora americana. Ela é mais conhecida por interpretar Gina Linetti na série de comédia policial Brooklyn Nine-Nine.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Chelsea_Peretti" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\99\TerryCrews.jpg" alt="foto do personagem Terry Crews">
+                <img src="imagens\99\TerryCrews.jpg" alt="foto do Terry Crews">
                 <h1 class="elenco">Terry Crews</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Terrence Alan Crews, conhecido como Terry Crews, é um ator, apresentador, dançarino, ilustrador, ativista e ex-jogador de futebol americano. Ganhou notoriedade mundial ao participar da comédia As Branquelas, e em seguida, do seriado Todo Mundo Odeia o Chris.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Terry_Crews" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\99\AndreBraugher.jpg" alt="foto do personagem Andre Braugher">
+                <img src="imagens\99\AndreBraugher.jpg" alt="foto do Andre Braugher">
                 <h1 class="elenco">Andre Braugher</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Andre Braugher é um ator estadunidense, conhecido por interpretar os personagens Raymond Holt na série de comédia Brooklyn Nine-Nine, Thomas Searles no filme Tempo de Glória, Frank Pembleton na série criminal Homicide: Life on the Street, e Owen Thoreau Jr. em Men of a Certain Age.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Andre_Braugher" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\99\JoeLoTruglio.jpg" alt="foto do personagem Joe Lo Truglio">
+                <img src="imagens\99\JoeLoTruglio.jpg" alt="foto do Joe Lo Truglio">
                 <h1 class="elenco">Joe Lo Truglio</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Joe Lo Truglio é um ator, comediante e escritor norte-americano mais conhecido por seu trabalho como Charles Boyle na série Brooklyn Nine-Nine.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Joe_Lo_Truglio" target="_blank">Wikipedia</a></center></h3>

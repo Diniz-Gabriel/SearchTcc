@@ -102,13 +102,13 @@
                 <img src="imagens\rickmorty\rick.webp" alt="foto do personagem Rick">
                 <h1 class="elenco">Rick Sanchez</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt">Traduzido do inglês-<br>Richard D. "Rick" Sanchez é um dos dois personagens homônimos da série de televisão animada Rick and Morty do Adult Swim e da franquia resultante. Criado por Justin Roiland e Dan Harmon e dublado pelo primeiro, Sanchez é um cientista alcoólatra misantropo inspirado pelo Dr...<a class="link" href="https://en.wikipedia.org/wiki/Rick_Sanchez" target="_blank">Wikipedia (inglês)</a></h3>
+                <h3 class="elencotxt">Traduzido do inglês-<br>Richard D. "Rick" Sanchez é um dos dois personagens homônimos da série de televisão animada Rick and Morty do Adult Swim e da franquia resultante. Criado por Justin Roiland e Dan Harmon e dublado pelo primeiro, Sanchez é um cientista alcoólatra misantropo inspirado pelo Dr...<br><br><br><br><center><a class="link" href="https://en.wikipedia.org/wiki/Rick_Sanchez" target="_blank">Wikipedia (inglês)</a></center></h3>
             </div>
             <div class="slideelenco">
             <img src="imagens\rickmorty\morty.webp" alt="foto do personagem Morty">
                 <h1 class="elenco">Morty Smith</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt">Traduzido do inglês-<br>Mortimer Chauncey "Morty" Smith, Sr. é um dos personagens homônimos da série de televisão animada americana Rick and Morty. Criado por Justin Roiland e Dan Harmon, Morty é um menino ansioso de 14 anos baseado em Marty McFly de Michael J. Fox de Back to the Future.<a class="link" href="https://en.wikipedia.org/wiki/Morty_Smith" target="_blank">Wikipedia (inglês)</a></h3>
+                <h3 class="elencotxt">Traduzido do inglês-<br>Mortimer Chauncey "Morty" Smith, Sr. é um dos personagens homônimos da série de televisão animada americana Rick and Morty. Criado por Justin Roiland e Dan Harmon, Morty é um menino ansioso de 14 anos baseado em Marty McFly de Michael J. Fox de Back to the Future.<br><br><br><br><center><a class="link" href="https://en.wikipedia.org/wiki/Morty_Smith" target="_blank">Wikipedia (inglês)</a></center></h3>
             </div>
             <div class="slideelenco">
             <img src="imagens\rickmorty\summer.webp" alt="foto da personagem Summer">
@@ -120,7 +120,7 @@
                 <img src="imagens\rickmorty\jerry.webp" alt="foto do personagem Jerry">
                 <h1 class="elenco">Jerry Smith</h1>
                 <br><br><br><br>
-                <h3 class="elencotxt">Traduzido do inglês-<br>Jerry Smith é um dos personagens principais da série animada de televisão americana Rick and Morty. Criado por Justin Roiland e Dan Harmon, Jerry é retratado como um perdedor medíocre e desempregado que encontra conteúdo em sua vida simples.<a class="link" href="https://en.wikipedia.org/wiki/Jerry_Smith_(Rick_and_Morty)" target="_blank">Wikipedia (inglês)</a></h3>  
+                <h3 class="elencotxt">Traduzido do inglês-<br>Jerry Smith é um dos personagens principais da série animada de televisão americana Rick and Morty. Criado por Justin Roiland e Dan Harmon, Jerry é retratado como um perdedor medíocre e desempregado que encontra conteúdo em sua vida simples.<br><br><br><br><br><center><a class="link" href="https://en.wikipedia.org/wiki/Jerry_Smith_(Rick_and_Morty)" target="_blank">Wikipedia (inglês)</a></center></h3>  
             </div>
             <div class="slideelenco">
                 <img src="imagens\rickmorty\beth.webp" alt="foto da personagem Beth">

@@ -6,6 +6,7 @@
 body {
     font-family: sans-serif;
     color: white;
+    background: black;
 }
 
 img {
@@ -110,6 +111,12 @@ img {
     background: black;
     padding: 4rem 0;
     border-bottom: 8px solid #222;
+}
+
+.quem {
+    background: black;
+    padding: 4rem 0;
+    border-bottom: 8px solid black;
 }
 
 .section h1 {

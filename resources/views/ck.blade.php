@@ -107,79 +107,79 @@
             <input type="radio" name="slideelenco" id="slide13elenco">
             
             <div class="slideelenco s1">
-                <img src="imagens\ck\RalphMacchio.webp" alt="foto do personagem Ralph Macchio">
+                <img src="imagens\ck\RalphMacchio.webp" alt="foto do Ralph Macchio">
                 <h1 class="elenco">Ralph Macchio</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Ralph George Macchio Jr. é um ator norte-americano de origem italiana, conhecido pelo seu papel como Daniel LaRusso em Karate Kid - A Hora da Verdade, Karate Kid 2 - A Hora da Verdade Continua e Karate Kid 3 - O Desafio Final em que era acompanhado pelo Pat Morita, que era seu treinador e melhor amigo.<br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Ralph_Macchio" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\ck\WilliamZabka.jpg" alt="foto do personagem William Zabka">
+            <img src="imagens\ck\WilliamZabka.jpg" alt="foto do William Zabka">
                 <h1 class="elenco">William Zabka</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">William Michael "Billy" Zabka é um ator, roteirista e produtor norte-americano de origem tcheca. Ficou mundialmente conhecido pelo personagem de Johnny Lawrence, nos filmes The Karate Kid e The Karate Kid Part II.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/William_Zabka" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\ck\XoloMaridue.jpg" alt="foto da personagem Xolo Maridueña">
+            <img src="imagens\ck\XoloMaridue.jpg" alt="foto do Xolo Maridueña">
                 <h1 class="elenco">Xolo Maridueña</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Ramario Xolo Maridueña é um ator americano. Ele é mais conhecido por seu papel como Miguel Diaz na série Cobra Kai da Netflix, e como Victor Graham na série de TV Parenthood.<br><br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Xolo_Maridue%C3%B1a" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\TannerBuchanan.webp" alt="foto do personagem Tanner Buchanan">
+                <img src="imagens\ck\TannerBuchanan.webp" alt="foto do Tanner Buchanan">
                 <h1 class="elenco">Tanner Buchanan</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Tanner Buchanan é um ator norte-americano. Ele é mais conhecido por seus papéis como Leo Kirkman no drama político da ABC Designated Survivor e Robby Keene na série Cobra Kai da Netflix. Ele também é conhecido por seu papel na série de televisão Game Shakers da Nickelodeon como Mason Kendall.<br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Tanner_Buchanan" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\JacobBertrand.jpg" alt="foto do personagem Jacob Bertrand">
+                <img src="imagens\ck\JacobBertrand.jpg" alt="foto do Jacob Bertrand">
                 <h1 class="elenco">Jacob Bertrand</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Jacob Scott Thomas Bertrand é um ator e dublador estadounidense. Bertrand começou sua carreira como ator infantil em 2009, com o filme Duress e em participações em séries de televisão como The Cape e The Middle.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Jacob_Bertrand" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\PeytonRoiList.webp" alt="foto da personagem Peyton Roi List">
+                <img src="imagens\ck\PeytonRoiList.webp" alt="foto da Peyton Roi List">
                 <h1 class="elenco">Peyton Roi List</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Peyton Roi List é uma atriz e cantora norte-americana. Ela é mais conhecida pelos seus papéis como Emma Ross em Jessie, Tory Nichols em Cobra Kai, Holly Hills em Diary of a Wimpy Kid: Rodrick Rules, Mackenzie Smith em The Outcasts e Ellie O'Brien em Swap: A Troca.<br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Peyton_Roi_List" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\ck\MaryMouser.webp" alt="foto da personagem Mary Mouser">
+            <img src="imagens\ck\MaryMouser.webp" alt="foto da Mary Mouser">
                 <h1 class="elenco">Mary Mouser</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Traduzido do inglês-<br>Mary Mouser é uma atriz americana. Ela é mais conhecida por seu papel como Samantha LaRusso na série Netflix Cobra Kai, e Lacey Fleming na série da ABC Body of Proof. Ela também assumiu o papel de Karen Grant, filha de Fitz & Mellie em Scandal na 4ª temporada.<br><br><br><br><center><a class="link" href="https://en.wikipedia.org/wiki/Mary_Mouser" target="_blank">Wikipedia (inglês)</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\CourtneyHenggeler.jpg" alt="foto da personagem Courtney Henggeler">
+                <img src="imagens\ck\CourtneyHenggeler.jpg" alt="foto da Courtney Henggeler">
                 <h1 class="elenco">Courtney Henggeler</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Courtney Henggeler é uma atriz estadunidense. Atuou na série The Big Bang Theory como Missy Cooper, a irmã gêmea do protagonista Sheldon Cooper, ficou notavelmente reconhecida em 2008 e logo depois obteve vários outros papéis no cinema e da televisão.<br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Courtney_Henggeler" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\ck\MartinKove.jpg" alt="foto do personagem Martin Kove">
+            <img src="imagens\ck\MartinKove.jpg" alt="foto do Martin Kove">
                 <h1 class="elenco">Martin Kove</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Traduzido do inglês-<br>Martin Kove é um ator americano e artista marcial. Ele é mais conhecido por seu papel como John Kreese, o principal antagonista de The Karate Kid, um papel que ele reprisou em The Karate Kid Parte II, The Karate Kid Parte III e na série de televisão Cobra Kai.<br><br><br><br><center><a class="link" href="https://en.wikipedia.org/wiki/Martin_Kove" target="_blank">Wikipedia (inglês)</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\GianniDeCenzo.webp" alt="foto do personagem Gianni DeCenzo">
+                <img src="imagens\ck\GianniDeCenzo.webp" alt="foto do Gianni DeCenzo">
                 <h1 class="elenco">Gianni DeCenzo</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">27 de outubro de 2001 (idade 20 anos), Los Angeles, Califórnia, EUA</h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\GriffinSantopietro.webp" alt="foto do personagem Griffin Santopietro">
+                <img src="imagens\ck\GriffinSantopietro.webp" alt="foto do Griffin Santopietro">
                 <h1 class="elenco">Griffin Santopietro</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Griffin Santopietro é um ator mirim que alcançou fama internacional graças ao seu papel como Anthony LaRusso em Cobra Kai O jovem ator foi atraído pela atuação desde que era estudante em Portland, e se matriculou em muitas atividades teatrais em sua escola. Ganhou o prêmio de Melhor Ator Infantil no Talent Inc.<br><br><br><br><br><br><center><a class="link" href="https://www.adorocinema.com/personalidades/personalidade-835086/#:~:text=Griffin%20Santopietro%20%C3%A9%20um%20ator,Ator%20Infantil%20no%20Talent%20Inc." target="_blank">Adoro Cinema</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\ThomasGriffith.webp" alt="foto do personagem Thomas Ian Griffith">
+                <img src="imagens\ck\ThomasGriffith.webp" alt="foto do Thomas Ian Griffith">
                 <h1 class="elenco">Thomas Ian Griffith</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Thomas Ian Griffith é um ator, produtor e roteirista norte-americano. Filho da professora de dança Mary Ann e de Thomas Joseph Griffith. Estudou no College of the Holy Cross, em Worcester, Massachusetts. Ele é faixa preta em Kenpo Karate e Tae Kwon Do.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Thomas_Ian_Griffith" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\ck\VanessaRubio.jpg" alt="foto do personagem Vanessa Rubio">
+                <img src="imagens\ck\VanessaRubio.jpg" alt="foto da Vanessa Rubio">
                 <h1 class="elenco">Vanessa Rubio</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Nascimento: 6 de dezembro de 1983 (idade 38 anos)</h3>

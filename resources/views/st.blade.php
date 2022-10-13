@@ -106,67 +106,67 @@
             
 
             <div class="slideelenco s1">
-                <img src="imagens\st\MillieB.webp" alt="foto da personagem Millie Bobby Brown">
+                <img src="imagens\st\MillieB.webp" alt="foto da Millie Bobby Brown">
                 <h1 class="elenco">Millie Bobby Brown</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Millie Bobby Brown é uma atriz e cantora britânica nascida na Espanha. A atriz ganhou reconhecimento mundial e aclamação da crítica por seu papel como Onze na série de televisão Stranger Things da Netflix.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Millie_Bobby_Brown" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\st\FinnW.webp" alt="foto do personagem Finn Wolfhard">
+            <img src="imagens\st\FinnW.webp" alt="foto do Finn Wolfhard">
                 <h1 class="elenco">Finn Wolfhard</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Finn Wolfhard é um ator, músico, roteirista e diretor canadense. Entre seus papéis incluí-se Mike Wheeler na série Stranger Things, da Netflix, pelo qual recebeu três indicações ao Prêmio Screen Actors Guild para melhor elenco em série de drama, ganhando uma.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Finn_Wolfhard" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-            <img src="imagens\st\NoahSchnapp.jpg" alt="foto da personagem Noah Schnapp">
+            <img src="imagens\st\NoahSchnapp.jpg" alt="foto do Noah Schnapp">
                 <h1 class="elenco">Noah Schnapp</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Noah Cameron Schnapp é um ator norte-americano, mais conhecido por interpretar Will Byers na série de televisão Stranger Things da Netflix e dar voz a Charlie Brown no filme The Peanuts Movie. Também atuou no filme Bridge of Spies de Steven Spielberg.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Noah_Schnapp" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\CalebMcLaughlin.webp" alt="foto do personagem Caleb McLaughlin">
+                <img src="imagens\st\CalebMcLaughlin.webp" alt="foto do Caleb McLaughlin">
                 <h1 class="elenco">Caleb McLaughlin</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Caleb McLaughlin é um ator norte-americano, mais conhecido por interpretar Lucas Sinclair na série de televisão Stranger Things da Netflix. McLaughlin começou sua carreira no palco da Broadway como o jovem Simba no musical The Lion King.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Caleb_McLaughlin" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\SadieSink.jpg" alt="foto da personagem Sadie Sink">
+                <img src="imagens\st\SadieSink.jpg" alt="foto da Sadie Sink">
                 <h1 class="elenco">Sadie Sink</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Sadie Elizabeth Sink é uma atriz norte-americana. É mais conhecida por interpretar Maxine "Max" Mayfield na série televisiva Stranger Things da Netflix. Ela também apareceu em episódios de Blue Bloods, The Americans e interpretou Ziggy Berman em Fear Street Part Two: 1978.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Sadie_Sink" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\GatenMatarazzo.jpg" alt="foto da personagem Gaten Matarazzo">
+                <img src="imagens\st\GatenMatarazzo.jpg" alt="foto do Gaten Matarazzo">
                 <h1 class="elenco">Gaten Matarazzo</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Gaten John Matarazzo III é um ator norte-americano, mais conhecido por interpretar Dustin Henderson na série de televisão Stranger Things da Netflix.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Gaten_Matarazzo" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\JoeKeery.webp" alt="foto da personagem Joe Keery">
+                <img src="imagens\st\JoeKeery.webp" alt="foto do Joe Keery">
                 <h1 class="elenco">Joe Keery</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Joseph David Keery, mais conhecido como Joe Keery, é um ator norte-americano. É mais conhecido por interpretar Steve Harrington na série Stranger Things da Netflix.<br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Joe_Keery" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\DavidHarbour.jpg" alt="foto da personagem David Harbour">
+                <img src="imagens\st\DavidHarbour.jpg" alt="foto do David Harbour">
                 <h1 class="elenco">David Harbour</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">David Kenneth Harbour é um ator norte-americano. Ganhou reconhecimento por seu papel como Jim Hopper na série de drama e ficção científica Stranger Things, pelo qual ele recebeu um Prêmio Critics' Choice em 2018. Por este papel ele também recebeu indicações ao Emmy do Primetime e Globo de Ouro.<br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/David_Harbour" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\NataliaDyer.jpg" alt="foto da personagem Natalia Dyer">
+                <img src="imagens\st\NataliaDyer.jpg" alt="foto da Natalia Dyer">
                 <h1 class="elenco">Natalia Dyer</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Natalia Danielle Dyer é uma atriz norte-americana, mais conhecida por interpretar Nancy Wheeler na série de televisão Stranger Things da Netflix.<br><br><br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Natalia_Dyer" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\WinonaRyder.webp" alt="foto da personagem Winona Ryder">
+                <img src="imagens\st\WinonaRyder.webp" alt="foto da Winona Ryder">
                 <h1 class="elenco">Winona Ryder</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Winona Laura Horowitz, mais conhecida como Winona Ryder, é uma atriz norte-americana, nascida no estado de Minnesota, próximo à localidade de Winona, inspiração para seu prenome<br><br><br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Winona_Ryder" target="_blank">Wikipedia</a></center></h3>
             </div>
             <div class="slideelenco">
-                <img src="imagens\st\MayaHawke.webp" alt="foto da personagem Maya Hawke">
+                <img src="imagens\st\MayaHawke.webp" alt="foto da Maya Hawke">
                 <h1 class="elenco">Maya Hawke</h1>
                 <br><br><br><br>
                 <h3 class="elencotxt">Maya Ray Thurman Hawke é uma atriz, modelo, cantora e compositora norte-americana, filha de Uma Thurman e Ethan Hawke. Ela é mais conhecida por interpretar Robin Buckley na série Stranger Things.<br><br><br><br><br><br><br><br><center><a class="link" href="https://pt.wikipedia.org/wiki/Maya_Hawke" target="_blank">Wikipedia</a></center></h3>
