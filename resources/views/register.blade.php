@@ -35,34 +35,53 @@
     <!-- Final do menu -->
     <div class="box">
         <div class="form">
+            <form method="POST" action="{{ route('register') }}">
+                @csrf
+    
             <h2>Cadastro</h2>
             <div class="inputBox">
-                <input type="text" required="required">
-                <span>Nome</span>
+                <input type="text" required="required" id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus>
+                <span>
+                    <x-input-label for="name" :value="__('Name')" />
+                    <x-input-error :messages="$errors->get('name')" class="mt-2" /></span>
                 <i></i>
             </div>
             <div class="inputBox">
-                <input type="text" required="required">
-                <span>Email</span>
+                <input type="text" required="required" id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required >
+                <span>
+                    <x-input-label for="email" :value="__('Email')" />
+                    <x-input-error :messages="$errors->get('email')" class="mt-2" /></span>
                 <i></i>
             </div>
             <div class="inputBox">
-                <input type="password" required="required">
-                <span>Senha</span>
+                <input type="password" required="required" id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="new-password" >
+                <span>
+                    <x-input-label for="password" :value="__('Password')" />
+                    <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                </span>
                 <i></i>
             </div>
             <div class="inputBox">
-                <input type="password" required="required">
-                <span>Confirmar senha</span>
+                <input type="password" required="required" id="password_confirmation" class="block mt-1 w-full" type="password" name="password_confirmation" required>
+                <span>
+                    <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+                    <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
+                </span>
                 <i></i>
             </div>
             <div class="links">
                 <a href="#"></a>
-                <a href="#">Já registrado ?</a>
+                <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
+                    {{ __('Already registered?') }}
+                </a>
             </div>
-            <input type="submit" value="Registrar">
+            <x-primary-button class="botao">
+                {{ __('Register') }}
+            </x-primary-button>
+        </form>
         </div>
     </div>
+    
          <!--Comeco do rodape -->
         <footer>
             <div class="waves">

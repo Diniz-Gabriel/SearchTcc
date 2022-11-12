@@ -35,25 +35,49 @@
     <!-- Final do menu -->
     <div class="box">
         <div class="form">
+            <form method="POST" action="{{ route('login') }}">
+                @csrf
+    
             <h2>Entrar</h2>
             <div class="inputBox">
-                <input type="text" required="required">
-                <span>Email</span>
+                <input type="text" required="required" id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus >
+                <span>Email
+                    <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                </span>
                 <i></i>
             </div>
             <div class="inputBox">
-                <input type="password" required="required">
-                <span>Senha</span>
+                <input type="password" required="required" id="password" class="block mt-1 w-full" type="password" name="password" required autocomplete="current-password">
+                <span>Senha
+                    <x-input-error :messages="$errors->get('password')" class="mt-2" />
+                </span>
                 <i></i>
             </div>
-            <div class="links">
-                <a href="#">Esqueceu a senha ?</a>
-                <a href="#">Inscreva-se</a>
+            <div class="block mt-4">
+                <label for="remember_me" class="inline-flex items-center">
+                    <input id="remember_me" type="checkbox" class="lembrar" name="remember">
+                    <span class="lembraar">{{ __('Remember me') }}</span>
+                </label>
             </div>
-            <input type="submit" value="Entrar">
+            <div class="links">
+                
+                @if (Route::has('password.request'))
+                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
+                        {{ __('Forgot your password?') }}
+                    </a>
+                @endif
+
+                <a href="{{ route('register') }}">Inscreva-se</a>
+            </div>
+            <x-primary-button class="botao">
+                {{ __('Log in') }}
+            </x-primary-button>
+            
         </div>
-    </div>
-         <!--Comeco do rodape -->
+    </form>
+</div>
+
+        <!--Comeco do rodape -->
         <footer>
             <div class="waves">
                 <div class="wave" id="wave1"></div>
@@ -81,3 +105,6 @@
      <!--Final do rodape -->
 </body>
 </html>
+
+    
+         
