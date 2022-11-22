@@ -33,7 +33,10 @@
     <header class="header">
     <img src="{{ asset('imagens\logo_search.png') }}" alt="Logo" height="300" width="300" draggable="false">
 
-    <div class="main-child">   
+    <div class="main-child">
+    <input type="text" id="email" name="email" placeholder="email"/>
+    <button type="submit" id='login' name="login" value="login">login</button>
+   
         <h1>Descubra onde sua série ou filme está!!!</h1>
         <br>
         <h2>De uma maneira muito fácil e rápida</h2>
@@ -42,7 +45,7 @@
         <div class="searchBox">
             <div class="search"><img src="{{ asset('imagens\lupa.svg') }}"></div>
             <div class="searchInput">
-                <input type="text" placeholder="Search Here">
+                <input type="text" placeholder="Search Here" id="a" name="a">
             </div>
             <div class="close"><img src="{{ asset('imagens\close.svg') }}"></div>
         </div>
@@ -173,3 +176,9 @@
 </body>
 
 </html>
+<script type="module">
+    login.addEventListener('click',(e) => {
+    var email = document.getElementById('email').value;
+    window.location = email
+    })
+</script>

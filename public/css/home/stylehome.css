@@ -44,7 +44,7 @@ img {
         transform: translateY(170vh) scale(0);
     }
     100%{
-        transform: translateY(-25"vh) scale(1);
+        transform: translateY(-25vh) scale(1);
     }
 }
 
