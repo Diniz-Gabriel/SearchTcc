@@ -20,6 +20,34 @@ img {
     margin: 0 auto;
 }
 
+
+.bubbles span{
+    position: relative;
+    width: 1200px;
+    height: 30px;
+    background: rgb(220,20,60);
+    margin: 0 4px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #5C0819, 0 0 50px rgb(220,20,60), 0 0 100px rgb(220,20,60);
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+.bubbles span:nth-child(even){
+    background: #DB143C;
+    box-shadow: 0 0 0 10px #5C0819, 0 0 50px #DB143C, 0 0 100px #DB143C;
+
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(170vh) scale(0);
+    }
+    100%{
+        transform: translateY(-25"vh) scale(1);
+    }
+}
+
 .header {
     position: absolute;
     z-index: 100;
@@ -53,9 +81,13 @@ img {
 }
 
 .main-child {
+    margin-left: 800px;
     z-index: 1;
     display: grid;
     justify-items: center;
+    margin-top: 500px;
+    margin-left: -390px;
+    
 }
 
 .main h1 {
@@ -95,16 +127,6 @@ img {
 
 .main p {
     font-size: 19px;
-}
-
-.gradient {
-    background: rgba(0,0,0,0.4);
-    background-image: linear-gradient(to top,rgba(0,0,0.8)0,rgba(0,0,0,0) 60%, rgba(0,0,0,.8)100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 .section {

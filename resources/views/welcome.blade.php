@@ -32,38 +32,81 @@
     <!-- Comeco da home -->
     <header class="header">
     <img src="{{ asset('imagens\logo_search.png') }}" alt="Logo" height="300" width="300" draggable="false">
-    </header>
-    <main class="main">
-        <div class="main-child">
-            <h1>Descubra onde sua série ou filme está!!!</h1>
-            <br>
-            <span>De uma maneira muito fácil e rápida</span>
-            <br><br>
-            <!-- Comeco da barra de pesquisa -->
-            <div class="searchBox">
-                <div class="search"><img src="{{ asset('imagens\lupa.svg') }}"></div>
-                <div class="searchInput">
-                    <input type="text" placeholder="Search Here">
-                </div>
-                <div class="close"><img src="{{ asset('imagens\close.svg') }}"></div>
+
+    <div class="main-child">   
+        <h1>Descubra onde sua série ou filme está!!!</h1>
+        <br>
+        <h2>De uma maneira muito fácil e rápida</h2>
+        <br><br>
+        <!-- Comeco da barra de pesquisa -->
+        <div class="searchBox">
+            <div class="search"><img src="{{ asset('imagens\lupa.svg') }}"></div>
+            <div class="searchInput">
+                <input type="text" placeholder="Search Here">
             </div>
-            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-            <script>
-                let search = document.querySelector('.search');
-                let close = document.querySelector('.close');
-                let searchBox = document.querySelector('.searchBox');
-                search.onclick = function(){
-                    searchBox.classList.add('active');
-                }
-                close.onclick = function(){
-                    searchBox.classList.remove('active');
-                }
-            </script>
-            <!-- Final da barra de pesquisa -->
-            <br><br>
-            <p>digite acima o nome da sua série ou filme </p>
+            <div class="close"><img src="{{ asset('imagens\close.svg') }}"></div>
         </div>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>
+            let search = document.querySelector('.search');
+            let close = document.querySelector('.close');
+            let searchBox = document.querySelector('.searchBox');
+            search.onclick = function(){
+                searchBox.classList.add('active');
+            }
+            close.onclick = function(){
+                searchBox.classList.remove('active');
+            }
+        </script>
+        <!-- Final da barra de pesquisa -->
+        <br><br>
+        <p>digite acima o nome da sua série ou filme </p>
+    </div>s
+
+    </header>
+    <div class="bubbles">
+    <main class="main">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
         <div class="gradient"></div>
     </main>
     <section class="section">
@@ -95,9 +138,9 @@
             </div>
         </div>
     </section>
-    <!-- Final da home -->
-
     </main>
+<!-- Final da home -->
+</div>
     <script src="{{ asset('js/mobile_navbar.js') }}"></script>
     <!-- Final do menu -->
              <!--Comeco do rodape -->
