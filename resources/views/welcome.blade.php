@@ -34,8 +34,7 @@
     <img src="{{ asset('imagens\logo_search.png') }}" alt="Logo" height="300" width="300" draggable="false">
 
     <div class="main-child">
-    <input type="text" id="email" name="email" placeholder="email"/>
-    <button type="submit" id='login' name="login" value="login">login</button>
+
    
         <h1>Descubra onde sua série ou filme está!!!</h1>
         <br>
@@ -43,9 +42,9 @@
         <br><br>
         <!-- Comeco da barra de pesquisa -->
         <div class="searchBox">
-            <div class="search"><img src="{{ asset('imagens\lupa.svg') }}"></div>
+            <div class="search" type="submit" id='pesquisa' name="pesquisa" value="pesquisa"><img src="{{ asset('imagens\lupa.svg') }}"></div>
             <div class="searchInput">
-                <input type="text" placeholder="Search Here" id="a" name="a">
+                <input type="text" placeholder="Search Here" id="pesquisar" name="pesquisar">
             </div>
             <div class="close"><img src="{{ asset('imagens\close.svg') }}"></div>
         </div>
@@ -55,13 +54,21 @@
             let search = document.querySelector('.search');
             let close = document.querySelector('.close');
             let searchBox = document.querySelector('.searchBox');
-            search.onclick = function(){
+            
+                search.onclick = function(){
                 searchBox.classList.add('active');
-            }
-            close.onclick = function(){
+
+                pesquisa.addEventListener('click',(e) => {
+                var email = document.getElementById('pesquisar').value;
+                window.location = email
+
+                })}
+                close.onclick = function(){
                 searchBox.classList.remove('active');
-            }
+                }
+
         </script>
+        <script></script>
         <!-- Final da barra de pesquisa -->
         <br><br>
         <p>digite acima o nome da sua série ou filme </p>
@@ -176,9 +183,3 @@
 </body>
 
 </html>
-<script type="module">
-    login.addEventListener('click',(e) => {
-    var email = document.getElementById('email').value;
-    window.location = email
-    })
-</script>
