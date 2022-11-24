@@ -21,6 +21,14 @@ Route::get('/99', function () {
     return view('99');
 });
 
+Route::get('/ck', function () {
+    return view('ck');
+});
+
+Route::get('/rickmorty', function () {
+    return view('rickmorty');
+});
+
 Route::get('/st', function () {
     return view('st');
 });

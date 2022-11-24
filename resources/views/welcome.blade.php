@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Search</title>
+    <title>Search</title>
     <link href="{{ asset('css\home\stylemenu.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css\home\stylehome.css') }}" rel="stylesheet" >
     <link href="{{ asset('css\home\stylebarrapesquisa.css') }}" rel="stylesheet" >
@@ -56,21 +56,88 @@
             let searchBox = document.querySelector('.searchBox');
             
                 search.onclick = function(){
-                searchBox.classList.add('active');
-
-                pesquisa.addEventListener('click',(e) => {
-                var email = document.getElementById('pesquisar').value;
-                window.location = email
-
-                })}
-                close.onclick = function(){
-                searchBox.classList.remove('active');
+                searchBox.classList.add('active'); // esse script aqui é nao importa mto, so faz a animao funcionar
                 }
 
+                pesquisa.addEventListener('click',(e) => {
+                let srch = document.getElementById('pesquisar').value; // esse aqui faz a pesquisa local, só q antes de colocar essa array de baixo se eu colocasse o nome errado n acontecia nada, agr pelo menos deu not found
+                if(srch == "") {
+                        return false
+                    }
+                let seriesPage = [
+                    {
+                        brooklyn: ['Brooklyn Nine-Nine', 'Brooklyn 99','Broklyn Nine-Nine', 'Broklyn 99']
+                    },
+                    {
+                        ck: ['CobraKai', 'Cobra Kai', 'Cobra Cai']
+                    },
+                    {
+                        rickmorty: ['Rick e Mortry', 'Rick and Mortry', 'Rick and More', 'Rick e More']
+                    },
+                    {
+                        st: ['Stranger Things']
+                    }
+                ]
+
+                for (let i = 0; i < seriesPage[0].brooklyn.length; i++) {
+                        let element = seriesPage[0].brooklyn[i]
+                        let isTrue = element.toLowerCase().includes(srch.toLowerCase().trim())
+                        if(isTrue) {
+                           window.location.assign("./99")
+                           console.log("funcionou");
+                            return "redirecionando"
+                        }
+                    }
+                for (let i = 0; i < seriesPage[1].ck.length; i++) {
+                        let element = seriesPage[1].ck[i]
+                        let isTrue = element.toLowerCase().includes(srch.toLowerCase().trim())
+                        if(isTrue) {
+                         window.location.assign("./ck")
+                           console.log("funcionou a pagina");
+                            return "redirecionando"
+                    }
+                }
+
+                for (let i = 0; i < seriesPage[2].rickmorty.length; i++) {
+                        let element = seriesPage[2].rickmorty[i]
+                        let isTrue = element.toLowerCase().includes(srch.toLowerCase().trim())
+                        if(isTrue) {
+                            window.location.assign("./rickmorty")
+                            return "redirecionando"
+                    }
+                }
+                for (let i = 0; i < seriesPage[3].st.length; i++) {
+                        let element = seriesPage[3].st[i]
+                        let isTrue = element.toLowerCase().includes(srch.toLowerCase().trim())
+                        if(isTrue) {
+                            window.location.assign("./st")
+                            return "redirecionando"
+                    }
+                    
+                }
+
+                let naoEncontrado = document.querySelector(".NEN")
+                naoEncontrado.innerText = "desculpa não catalogamos essa série ainda"
+
+                })
+
+                close.onclick = function(){
+                searchBox.classList.remove('active'); // esse script aqui é nao importa mto, so faz a animao funcionar
+                let clearMessage = document.querySelector("#pesquisar")
+                clearMessage.value = ""
+                }
+                
+                let inputPesquisa = document.querySelector("#pesquisar")
+                inputPesquisa.addEventListener("keydown", () => {
+                        let naoEncontrado = document.querySelector(".NEN")
+                        naoEncontrado.innerText = ""
+                    })
+
         </script>
-        <script></script>
         <!-- Final da barra de pesquisa -->
         <br><br>
+        <span class="NEN"></span>
+        <br>
         <p>digite acima o nome da sua série ou filme </p>
     </div>s
 
