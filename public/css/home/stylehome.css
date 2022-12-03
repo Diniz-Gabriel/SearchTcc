@@ -20,6 +20,89 @@ img {
     margin: 0 auto;
 }
 
+.logo{
+    margin-top: -110px;
+    margin-right: 500px;
+    width: 350px;
+    height: 350px;
+}
+
+@media (min-width: 399px) and (max-width: 900px){
+    .header{
+        display:block!important;
+    }
+    .logo{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .main-child {
+        margin-left: 525px !important;
+        margin-top: 400px !important;
+        justify-items: center;
+        height: 100px;
+    }
+    .main-child h1 {
+        width: 380px;
+        font-size: 19px;
+        justify-items: center;
+        margin-bottom: 5px;
+        margin-left: 55px;
+    }
+    .main-child h2 {
+        width: 310px;
+        font-size: 15px;
+        justify-items: center;
+        margin-left: 6em;
+    }
+    .NEN{
+        font-size: 12px;
+        justify-items: center;
+        margin-left: 3.5em;
+    }
+    .main-child p {
+        font-size: 12px;
+        justify-items: center;
+        margin-left: 3.5em;
+    }
+    .container{
+        max-width: 400px;
+        justify-items: center;
+        margin-left: 30px;
+        margin-top: -100px;
+    }
+    .img-tv {
+        display: none;
+    }
+    .img-tv img {
+        display: none;
+    }
+    .video-tv {
+        display: none;
+    }
+    .bubbles span{
+        display: none;
+    }
+    .grid div{
+        margin-left: 0;
+        max-width: 500px;
+        width: 360px;
+        justify-items: center;  
+        z-index: 1; 
+        margin-top: -300px;
+    }
+    .section {
+        margin-bottom: 100px;
+    }
+    .section h1 {
+        max-width: 400px;
+        font-size: 29px !important;  
+        margin-bottom: 16px;
+    }
+    .grid p {  
+        font-size: 20px !important;
+        max-width: 400px;
+    }
+}
 
 .bubbles span{
     position: relative;
@@ -44,7 +127,7 @@ img {
         transform: translateY(170vh) scale(0);
     }
     100%{
-        transform: translateY(-25vh) scale(1);
+        transform: translateY(-50vh) scale(1);
     }
 }
 
@@ -56,7 +139,7 @@ img {
     justify-content: space-between;
     max-width: 1790px;
     top: -115px;
-    left: 100px;
+    right: 560px;
     
 }
 
@@ -81,17 +164,15 @@ img {
 }
 
 .main-child {
-    margin-left: 800px;
+    margin-left: 1110px;
     z-index: 1;
     display: grid;
     justify-items: center;
     margin-top: 500px;
-    margin-left: -390px;
-    
 }
 
 .main h1 {
-    font-size: 64px;
+    font-size: 50px;
     max-width: 510px;
     
 }
@@ -132,7 +213,8 @@ img {
 .section {
     background: black;
     padding: 4rem 0;
-    border-bottom: 8px solid #222;
+    border-bottom: 8px solid black;
+    
 }
 
 .quem {
@@ -153,7 +235,7 @@ img {
 .grid {
     display: grid;
     grid-template-columns: 1.1fr 1fr;
-    align-items: center;
+    align-items: center; 
 }
 
 .img-tv {

@@ -22,6 +22,16 @@
 .searchBox.active{
     width: 500px;
 }
+
+@media (min-width: 399px) and (max-width: 900px){
+    .searchBox.active{
+        width: 330px;
+        margin-left: 30px;
+    }
+    .searchBox{
+        margin-left: 40px;
+    }
+}
     
 .searchBox .search{
     position: relative;

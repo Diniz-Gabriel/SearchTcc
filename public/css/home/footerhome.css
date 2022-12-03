@@ -1,5 +1,21 @@
-footer{
+@media (max-width: 900px){
+    footer{
+    margin-top: -800px;
     top: 1050px;
+    position: relative;
+    width: 400px;
+    background: rgb(220,20,60);
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+}
+
+footer{
+    top: 1100px;
     position: relative;
     width: auto;
     background: rgb(220,20,60);

@@ -6,36 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
     <link href="{{ asset('css\home\stylemenu.css') }}" rel="stylesheet" type="text/css">
-    <link href="{{ asset('css\home\stylehome.css') }}" rel="stylesheet" >
-    <link href="{{ asset('css\home\stylebarrapesquisa.css') }}" rel="stylesheet" >
-    <link href="{{ asset('css\home\footerhome.css') }}" rel="stylesheet" >
+    <link href="{{ asset('css\home\stylehome.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\home\stylebarrapesquisa.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css\home\footerhome.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <!-- Comeco da menu -->
-    <header>
-        <nav>
-            <a class="logo"></a>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>    
-            <ul class="nav-list">
-                <li><a href="/">Inicio</a></li>
-                <li><a href="/">Sobre</a></li>
-                <li><a href="/">Projetos</a></li>
-                <li><a href="/">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
     <!-- Comeco da home -->
+    <img src="imagens\logo_search.png" alt="logo" class="logo">
+    <main>
     <header class="header">
-    <img src="{{ asset('imagens\logo_search.png') }}" alt="Logo" height="300" width="300" draggable="false">
-
-    <div class="main-child">
-
-   
+    <div class="main-child">   
         <h1>Descubra onde sua série ou filme está!!!</h1>
         <br>
         <h2>De uma maneira muito fácil e rápida</h2>
@@ -117,7 +97,7 @@
                 }
 
                 let naoEncontrado = document.querySelector(".NEN")
-                naoEncontrado.innerText = "desculpa não catalogamos essa série ainda"
+                naoEncontrado.innerText = "desculpa não catalogamos essa série ou filme ainda"
 
                 })
 
@@ -139,8 +119,7 @@
         <span class="NEN"></span>
         <br>
         <p>digite acima o nome da sua série ou filme </p>
-    </div>s
-
+    </div>
     </header>
     <div class="bubbles">
     <main class="main">
@@ -191,7 +170,8 @@
             <div class="grid">
                 <div>
             <h1>Aproveite seu tempo livre</h1>
-            <p>Não perca mais seu tempo procurando aonde esta determinanda série ou filme , nós do "Aonde esta ?" , facilitamos isso para você</p>
+            <br>
+            <p>Não perca mais seu tempo procurando aonde esta determinanda série ou filme, nós do "Search🔍", facilitamos isso para você</p>
                 </div>
                 <div class="img-tv">
                 <img src="{{ asset('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png') }}" alt="TV">
