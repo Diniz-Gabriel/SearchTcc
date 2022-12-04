@@ -2,20 +2,182 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 1800px;
+    width: 1600px;
     background: black;
 }
-/* Comeco da introducao do site */
-.onde{
-    margin: -190px 160px;
-    padding: 200px;
-    height: 500px;
-    width: 500px;
+.logo{
+    margin-top: -110px;
+    margin-right: 500px;
+    width: 350px;
+    height: 350px;
+}
+@media (min-width: 399px) and (max-width: 900px){
+    
+
+    body{
+        width: 1400px;
+    }
+    /*Comeco da introducao do site*/
+    .logo{
+        margin-left: 650px !important;
+    }
+    .info{
+        margin: -600px 990px -170px !important;
+        margin-right: 10px !important; 
+        font-size: 25px;
+        margin-left: 850px !important;
+    }
+    
+    .onde img{
+        margin-left: -250px !important;
+    }
+    /*Final da introducao do site*/
+    
+    /*Comeco da sinopse do site*/
+    .sinopse {
+        margin-bottom: 10px !important;
+        max-width: 400em;
+        margin-left: 215px !important; 
+        height:800px !important;
+        }
+    .tituloSinopse{
+        padding: auto;
+        margin-left: 370px !important;
+        font-size: 195%;
+    }  
+    .textoSinopse{
+        font-size: 195%;
+        padding: 300px;
+        margin-left: -200px;
+        margin-right: -180px;
+        text-align: center;
+        margin-top: -300px;
+        text-overflow: auto;
+    }
+    /*Final da sinopse do site*/
+
+    /*Comeco dos slides de curiosidades*/
+    .content {
+        margin-left: 215px !important; 
+        font-size: 195%;
+        height:800px !important;
+        margin-bottom: 500px;
+    }
+    .navigation {
+        position: absolute;
+        bottom: 22px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+    }
+    .curiosidade{
+        padding: auto;
+        margin-left: 310px !important;
+    }
+    
+    .curiosidadetxt{ 
+        padding: 200px !important;
+        margin-left: -200px;
+        margin-right: -180px;
+        text-align: center;
+        margin-top: -350px;
+        text-overflow: auto;
+    }
+    /*Final dos slides de curiosidades*/
+
+    /*Comeco dos slides do elenco*/
+    .content1 {
+        font-size: 195%;
+        height: 700px !important;
+        width: 1300px !important;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 1000px !important;
+        margin-left: 100px !important; 
+        margin-bottom: 500px;
+    }
+    .elenco{
+        margin-top: -385px;
+        margin-left: 550px;
+    
+    }
+    
+    .elencotxt{
+        width: 600px !important;
+        padding: 300px;
+        margin-left: 250px !important;
+        text-align: justify;
+        margin-top: -400px !important;
+        margin-bottom: -400px !important;
+       
+    }
+    
+    .link1{
+        display: flex !important;
+        margin-top: -140px !important;
+        margin-left: -360px !important;
+        z-index: 10 !important;
+    }
+    .link2{
+        display: flex !important;
+        margin-top: -100px !important;
+        margin-left: -360px !important;
+        z-index: 10 !important;
+    }
+    .link3{
+        display: flex !important;
+        margin-top: -230px !important;
+        margin-left: -360px !important;
+        z-index: 10 !important;
+    }
+    .link4{
+        display: flex !important;
+        margin-top: -100px !important;
+        margin-left: -360px !important;
+        z-index: 10 !important;
+    }
+    .link5{
+        display: flex !important;
+        margin-top: -210px !important;
+        margin-left: -360px !important;
+        z-index: 10 !important;
+    }
+    .link6{
+        display: flex !important;
+        margin-top: -260px !important;
+        margin-left: -360px !important;
+        z-index: 10 !important;
+    }
+    .link7{
+        display: flex !important;
+        margin-top: -50px !important;
+        margin-left: -360px !important;
+        z-index: 10 !important;
+    }
+
+    .slide img {
+        margin-top: 100px !important;
+        border-radius: 5px !important;
+        height: 900px !important;
+    }
+    /*Final dos slides do elenco*/    
+    
+
     
 }
 
+/* Comeco da introducao do site */
+.onde{
+    margin: -330px 150px;
+    padding: 200px;
+    height: 500px;
+    width: 500px;
+
+}
+
 .info{
-    margin: -600px 1170px -60px;
+    margin: -600px 1090px -60px;
     margin-right: 10px; 
 }
 
@@ -30,9 +192,8 @@ body {
 /* final da introducao do site */
 
 .sinopse {
-    margin-top: 600px;
-    margin-left: auto;
-    margin-right: auto; 
+    margin-top: 490px;
+    margin-left: 400px; 
     width:1000px;
     height:400px;
     background: #333333; 
@@ -62,9 +223,8 @@ body {
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    top: 190%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 100px;
+    margin-left: 400px; 
 }
 
 .navigation {
@@ -158,9 +318,9 @@ input {
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
-    top: 280%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 900px;
+    margin-left: 400px; 
+
 }
 
 .navigationelenco {
@@ -224,7 +384,7 @@ input {
    
 }
 
-.link{
+.link,.link1,.link2,.link3,.link4,.link5,.link6,.link7{
     color: rgb(220,20,60);
 }
 

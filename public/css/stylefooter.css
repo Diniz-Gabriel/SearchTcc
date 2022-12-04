@@ -1,7 +1,7 @@
 footer{
     top: 1700px;
     position: relative;
-    width: 1803px;
+    width: 1630px;
     background: rgb(220,20,60);
     min-height: 100px;
     padding: 20px 50px;
@@ -9,6 +9,20 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+@media (max-width: 900px){
+    footer{
+    margin-top: 900px;
+    top: 1050px;
+    position: relative;
+    width: 1300px;
+    background: rgb(220,20,60);
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
 }
 
 footer .redessociais,
