@@ -11,6 +11,7 @@ body {
     width: 350px;
     height: 350px;
 }
+
 @media (min-width: 399px) and (max-width: 900px){
     
 

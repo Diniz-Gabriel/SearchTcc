@@ -6,8 +6,126 @@ body {
     background: black;
 }
 /* Comeco da introducao do site */
+
+@media (min-width: 399px) and (max-width: 900px){
+    
+
+    body{
+        width: 1400px;
+    }
+    /*Comeco da introducao do site*/
+    .logo{
+        margin-left: 650px !important;
+    }
+    .info{
+        margin: -600px 990px -170px !important;
+        margin-right: 10px !important; 
+        font-size: 25px;
+        margin-left: 850px !important;
+    }
+    
+    .onde img{
+        margin-left: -250px !important;
+    }
+    /*Final da introducao do site*/
+    
+    /*Comeco da sinopse do site*/
+    .sinopse {
+        margin-bottom: 10px !important;
+        max-width: 400em;
+        margin-left: 215px !important; 
+        height:800px !important;
+        }
+    .tituloSinopse{
+        padding: auto;
+        margin-left: 370px !important;
+        font-size: 195%;
+    }  
+    .textoSinopse{
+        font-size: 195%;
+        padding: 300px;
+        margin-left: -200px;
+        margin-right: -180px;
+        text-align: center;
+        margin-top: -300px;
+        text-overflow: auto;
+    }
+    /*Final da sinopse do site*/
+
+    /*Comeco dos slides de curiosidades*/
+    .content {
+        margin-left: 500px !important; 
+        font-size: 195%;
+        height:800px !important;
+        margin-top: 790px;
+    }
+    .navigation {
+        position: absolute;
+        bottom: 22px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+    }
+    .curiosidade{
+        padding: auto;
+        margin-left: 310px !important;
+    }
+    
+    .curiosidadetxt{ 
+        padding: 200px !important;
+        margin-left: -200px;
+        margin-right: -180px;
+        text-align: center;
+        margin-top: -350px;
+        text-overflow: auto;
+    }
+    /*Final dos slides de curiosidades*/
+
+    /*Comeco dos slides do elenco*/
+    .content1 {
+        font-size: 195%;
+        height: 700px !important;
+        width: 1300px !important;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        margin-top: 1000px !important;
+        margin-left: 500px !important; 
+        margin-bottom: 500px;
+    }
+    .elenco{
+        margin-top: -385px;
+        margin-left: 550px;
+    
+    }
+    
+    .elencotxt{
+        width: 600px !important;
+        padding: 300px;
+        margin-left: 250px !important;
+        text-align: justify;
+        margin-top: -400px !important;
+        margin-bottom: -400px !important;
+       
+    }
+    
+    .link{
+        display: none;
+    }
+
+    .slide img {
+            margin-top: 100px !important;
+            border-radius: 5px !important;
+            height: 900px !important;
+    }
+    /*Final dos slides do elenco*/    
+    
+
+    
+}
+
 .onde{
-    margin: -190px 160px;
+    margin: -300px 160px;
     padding: 200px;
     height: 500px;
     width: 500px;
